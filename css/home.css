@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slide-bar {
+		width: 2020px;;
+		max-width : 2020px;
+		position : relative;
+		margin: 0 auto;
+}
+.slide-bar-bounder {
+		margin : 0 auto;
+		position: absolute;
+			height: 1262px;
+
+} 
+.slide-bar-cutter {
+		position: absolute;
+		margin-top:863px;	
+		max-width: 2025px;
+		z-index:4;
+}
+.slidebar-images {
+	 	margin:0 auto;
+		position:absolute;
+		height : 100%;
+		width: 2020px;
+}
+.slidebar-animation {
+		animiaton-name : slidebar-animation;
+		animation-duration: 2s;
+		animation-direction: normal;
+		animation-iteration-count: 1;
+		animation-timing-function: linear;
+		animation-delay : 2s;
+}
+
+@keyframes slidebar-animation {
+		0% {
+			opactiy: 1;	
+		}
+		99.9999% {
+			opacity : 1;	
+		}
+		100% {
+			opactiy: 0;	
+		}
+}
+.icon {
+	position:absolute;
+	z-index: 5;
+	height: 120px;
+	width : 120px;
+}	
+ul {
+	list-style: none;	
+}
